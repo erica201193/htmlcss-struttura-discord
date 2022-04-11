@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 16px;
+  }
+
+  header{
+      background-color: lightblue;
+      min-height: 80px;
+      color: black;
+  }
+
+  main {
+      display: flex;
+      max-width: 960px;
+      background-color: black;
+  }
+.d-flex {
+    display: flex;
+}
+.container {
+    width: 100%;
+    max-width: 960px;
+    min-width: 300px;
+    min-height: 50px;
+    background-color: orange;
+    border: 2px dashed black;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-content: center;
+  }
+
+.col {
+      border: 2px dashed black;
+      max-height: 100%;
+      min-width: 50px;
+      align-items: center;
+  }
+
+  .section {
+      background-color:rgb(221, 19, 97);
+      min-height: 400px;
+      width: 100%;
+      padding: 2rem 1rem;
+      align-items: center;
+  }
