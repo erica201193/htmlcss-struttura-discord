@@ -16,8 +16,6 @@
 
   main {
       display: flex;
-      max-width: 960px;
-      background-color: black;
   }
 .d-flex {
     display: flex;
@@ -42,7 +40,7 @@
   }
 
   .section {
-      background-color:rgb(221, 19, 97);
+      background-color:blue;
       min-height: 400px;
       width: 100%;
       padding: 2rem 1rem;
